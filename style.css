@@ -1,10 +1,11 @@
 html, body {
     height: 100%;
+    width: 100%;
 }
 
 html {
     display: table;
-    margin: auto;
+    margin: 0;
 }
 
 body {
@@ -17,7 +18,7 @@ main {
     display: grid;
     grid-template-columns: 22rem 22rem;
     justify-content: center;
-    max-width: 44rem;
+    max-width: 33rem;
 }
 
 .rightsection {
@@ -136,7 +137,6 @@ main {
     
     main {
         grid-template-columns: 22rem;
-        width: 425px;
 
         justify-content: center;
         align-items: center;
@@ -158,11 +158,6 @@ main {
 }
 
 @media (max-width: 375px) {
-
-    main {
-        width: 23rem;
-    }
-
     .rightsection {
         height: 14rem;
     }
