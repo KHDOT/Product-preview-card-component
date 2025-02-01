@@ -1,11 +1,10 @@
 html, body {
     height: 100%;
-    width: 100%;
 }
 
 html {
     display: table;
-    margin: 0;
+    margin: auto;
 }
 
 body {
@@ -153,6 +152,8 @@ main {
 
     .rightsection {
         height: 15rem;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
     }
 
 }
